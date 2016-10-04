@@ -1,0 +1,36 @@
+.container{
+	text-align: center;
+	 width: 40%; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    background: #fc0; /* Цвет фона */
+    margin-top: 15%;
+}
+.timer{
+	font-size: 100px;
+	font-weight: 300;
+	font-family: Tahoma;
+}
+button{
+	width: 200px;
+	height: 60px;
+	font-family: arial;
+	border-radius: 10px;
+	font-size: 32px;
+	font-weight: 400;
+
+}
+
+
+button:hover{
+	cursor: pointer;
+	
+}
+.start{
+	background-color: rgb(24,190,20);
+
+}
+
+.reset{
+	background-color: rgb(240,47,62);
+}
